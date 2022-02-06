@@ -1,0 +1,64 @@
+*{
+	background-color: lightgreen;
+}
+.header{
+	font-family: cursive;
+}
+/*********** N A V B A R ********/
+.navbar-brand,.navbar-nav{
+	font-size: 20px !important;
+	display: block;
+}
+.splitter{
+	padding-left: 55px;
+}
+.nav-item{
+	padding-left: 18px;
+	font-size: 18px !important;
+}
+.nav-link:hover{
+	border-bottom: 2px solid;
+}
+.main-content{
+	padding-top: 25px;
+}
+.main-cotent-text{
+	font-family: cursive;
+}
+.main-content-ques{
+	color: red;
+}
+.dropdown-item:hover{
+	background-color: yellow !important;
+}
+.carousel,.main-reg{
+	padding: 20px 20px 20px 20px;
+}
+.main-reg label{
+	font-family: cursive;
+	font-size: 17px;
+}
+.manditory{
+	color: red;
+}
+.navbar-icon{
+	position: relative;
+	right: -90px;
+	top:3px;
+}
+.details-list{
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.footer{
+	position: absolute;
+	bottom: 1px;
+	right: 40%;
+}
+@media only screen and (min-width : 992px){
+	.form-group p{
+		padding-left: 190px;
+	}
+}
+	
